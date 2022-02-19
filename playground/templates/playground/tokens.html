@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'playground/styles/base.css' %}">
+    <title>All tokens</title>
+</head>
+<body>
+    <h1>All tokens</h1>
+    <h4>We present you... All tokens from the QRL!</h4>
+    <ul>
+        {% for token_name in tokens %}
+            <li>{{ token_name.tokenName }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

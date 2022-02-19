@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+  }
+
+h1 {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 50%;
+    border: 1px solid white;
+    padding: 10px;
+}
+body {
+    text-align: center;
+    color: white;
+}
+form {
+    display: inline-block;
+}
+#id_Search{
+    display: inline-block;
+    width: 850px;
+}
+a{
+    color: white;
+}
+
+table{
+    display: inline-block;
+}

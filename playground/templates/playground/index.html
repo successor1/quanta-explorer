@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'playground/styles/base.css' %}">
+    <title>QRL Block Explorer</title>
+</head>
+<body>
+    <h1>QRL Blockchain Explorer</h1>
+    <h4>(no javascript - no cookies - no web analytics trackers - no images - open sourced)</h4>
+    <div style="overflow: hidden; padding-right: .5em;">
+    <form action="/" method="post">
+        <input type="submit" name="Search" value="Search" style="float: right">
+        {{ form }}
+      </form> 
+    </div>      
+    <h4 style="font-size: 12px;" >Server time: {{ datetime }} | <a href="/richlist">Rich list</a> | Total number of wallets: {{ numberofwallets }} | <a href="/tokens">All tokens</a> | <a href="/messages">All messages</a> </h4>
+</body>
+</html>
