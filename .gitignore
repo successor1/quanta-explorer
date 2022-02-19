@@ -1,2 +1,4 @@
 /env
-blockchainpart.zip/
+explorer/__pycache__/
+quanta-explorer/playground/__pycache__/
+quanta-explorer/playground/migrations/
