@@ -1,4 +1,4 @@
 /env
 explorer/__pycache__/
-quanta-explorer/playground/__pycache__/
-quanta-explorer/playground/migrations/
+playground/__pycache__/
+playground/migrations/
